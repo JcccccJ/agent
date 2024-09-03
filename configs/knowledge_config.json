@@ -1,0 +1,21 @@
+[
+{
+  "knowledge_id": "agent_llm_rag",
+  "emb_model_config_name": "qwen_emb_config",
+  "data_processing": [
+    {
+      "load_data": {
+        "loader": {
+          "create_object": true,
+          "module": "llama_index.core",
+          "class": "SimpleDirectoryReader",
+          "init_args": {
+            "input_dir": "./data/pdf",
+            "required_exts": [".pdf"]
+          }
+        }
+      }
+    }
+  ]
+}
+]

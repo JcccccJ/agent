@@ -1,0 +1,2 @@
+{"id": "49ccdddd5cf845e3bfb014865fe9efe9", "timestamp": "2024-08-30 13:53:35", "name": "User", "content": "agent的组成框架有几部分", "role": "user", "url": null, "metadata": null, "_colored_name": "\u001b[92mUser\u001b[0m"}
+{"id": "d8bd9c6cef1e460e99daff6f1eea484c", "timestamp": "2024-08-30 13:53:39", "name": "Agent-Guiding-Assistant", "content": "感谢您的提问！我想您想了解的是AgentScope框架主要由几部分组成。\n\n@Tutorial-Assistant, 我认为您更适合回答这个问题，能给我们详细讲解一下吗？", "role": "assistant", "url": null, "metadata": null, "_colored_name": "\u001b[91mAgent-Guiding-Assistant\u001b[0m"}

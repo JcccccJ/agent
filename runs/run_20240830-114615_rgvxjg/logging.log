@@ -1,0 +1,24 @@
+2024-08-30 11:46:22.797 | INFO     | agentscope.manager._model:load_model_configs:115 - Load configs for model wrapper: qwen_emb_config, qwen_config2024-08-30 11:46:22.813 | INFO     | agentscope.models.model:__init__:203 - Initialize model by configuration [qwen_config]2024-08-30 11:46:22.813 | INFO     | agentscope.models.model:__init__:203 - Initialize model by configuration [qwen_config]2024-08-30 11:46:22.814 | INFO     | agentscope.rag.knowledge_bank:__init__:47 - Loading configs from ./configs/knowledge_config.json2024-08-30 11:46:22.814 | INFO     | agentscope.models.model:__init__:203 - Initialize model by configuration [qwen_emb_config]2024-08-30 11:46:22.815 | INFO     | agentscope.rag.knowledge:_prepare_args_from_config:131 - load and build object: SimpleDirectoryReader2024-08-30 11:46:22.816 | INFO     | agentscope.rag.llama_index_knowledge:_set_loader:394 - loaders are ready.2024-08-30 11:46:23.164 | INFO     | agentscope.rag.llama_index_knowledge:_data_to_docs:332 - loaded 7 documents2024-08-30 11:46:23.419 | INFO     | agentscope.rag.llama_index_knowledge:_set_transformations:425 - transformations are ready.2024-08-30 11:46:27.461 | INFO     | agentscope.rag.llama_index_knowledge:_docs_to_nodes:365 - nodes generated.2024-08-30 11:46:27.515 | INFO     | agentscope.rag.llama_index_knowledge:_data_to_index:295 - index calculation completed.2024-08-30 11:46:27.663 | INFO     | agentscope.rag.llama_index_knowledge:_data_to_index:298 - index persisted.2024-08-30 11:46:27.664 | INFO     | agentscope.rag.llama_index_knowledge:_get_retriever:445 - similarity_top_k=52024-08-30 11:46:27.665 | INFO     | agentscope.rag.llama_index_knowledge:_get_retriever:453 - retriever is ready.2024-08-30 11:46:27.666 | INFO     | agentscope.rag.llama_index_knowledge:_init_rag:245 - RAG with knowledge ids: agent_pdf_rag initialization completed!
+2024-08-30 11:46:27.666 | INFO     | agentscope.rag.knowledge_bank:add_data_as_knowledge:132 - data loaded for knowledge_id = agent_pdf_rag.2024-08-30 11:46:27.667 | INFO     | agentscope.rag.knowledge_bank:_init_knowledge:64 - knowledge bank initialization completed.
+ 2024-08-30 11:46:27.668 | INFO     | agentscope.rag.knowledge_bank:equip:177 - Equipping Pdf-Assistant knowledge ['agent_pdf_rag']2024-08-30 11:46:27.668 | INFO     | agentscope.rag.knowledge_bank:get_knowledge:157 - knowledge bank loaded: agent_pdf_rag.User: agent一般分为几个部分
+Agent-Guiding-Assistant: Thank you for asking!
+
+I think you are asking about the general components or sections that typically make up an agent.
+
+Since this question is about understanding the general structure of an agent, which could be related to both conceptual knowledge and details potentially found in documentation like PDFs,
+
+I believe @Tutorial-Assistant and @Pdf-Assistant are the most appropriate agents to answer your question.
+2024-08-30 11:46:52.074 | INFO     | agentscope.rag.llama_index_knowledge:_get_retriever:445 - similarity_top_k=52024-08-30 11:46:52.074 | INFO     | agentscope.rag.llama_index_knowledge:_get_retriever:453 - retriever is ready.2024-08-30 11:46:56.096 | WARNING  | agentscope.message.msg:__init__:145 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.Pdf-Assistant: Agent一般可以分为三个部分，根据您提供的内容，这些部分为：单代理、多代理、人机交互。这涵盖了从基础的任务执行到复杂的社交互动，体现了Agent应用的多样性。
+User: 智能代
+Agent-Guiding-Assistant: 真是太棒了，您的问题似乎是关于智能代理的！让我们这样表述您的问题：“我想了解关于智能代理的基本概念。”
+
+考虑到这个问题可能需要基于大量的中文文献资料来解答，尤其是PDF格式的文件内容，我感觉@Pdf-Assistant是最适合回答您问题的助手！
+
+所以，您的问题看起来非常适合我们的@Pdf-Assistant来解答。
+User: 理的框架也由三个部分组成智能代理的框架由几部分
+Agent-Guiding-Assistant: 感谢您的提问！我想您想了解的是：“智能代理的框架由哪几个部分组成？”
+
+考虑到这个问题是关于理解智能代理框架的组成，这涉及到对AgentScope框架的一般性知识说明，因此：
+
+由于该问题需要对AgentScope框架的基本构成有所了解，
+我认为@Tutorial-Assistant是最适合回答您问题的助手。
